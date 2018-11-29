@@ -1,0 +1,14 @@
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">FirstName</th>
+      <th scope="col">LastName</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor='let author of author'>
+      <td>{{author.FirstName}}</td>
+      <td>{{author.LastName}}</td>
+    </tr>
+  </tbody>
+</table>
